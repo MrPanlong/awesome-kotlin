@@ -1,6 +1,5 @@
 package leetcode.strs
 
-import java.util.*
 
 fun mostCommonWord(paragraph:String,banned:Array<String>):String{
     var bannedSet = mutableSetOf<String>()
@@ -14,7 +13,7 @@ fun mostCommonWord(paragraph:String,banned:Array<String>):String{
     for (i in 0..length) {
         if (i < length && (paragraph[i] in 'a'..'z')){
             sb.append(paragraph[i].toLowerCase())
-        }else if(sb.length > 0){
+        }else if(sb.isNotEmpty()){
             var word = sb.toString()
             if (!bannedSet.contains(word)){
                 var frequency = frequencies.getOrDefault(word, 0) + 1
@@ -36,9 +35,17 @@ fun mostCommonWord(paragraph:String,banned:Array<String>):String{
     return mostCommon
 }
 
+fun main(args: Array<String>) {
+    val paragraph = "Bob hit a ball, the hit BALL flew far after it was hit."
+    val banned = arrayOf("hit")
+    var res = mostCommonWord(paragraph, banned)
+    println("res is $res")
+}
 
 fun mostCommonWords(s: String, ar: Array<String>) = mutableMapOf<String, Int>().apply {
-    s.toLowerCase().replace(Regex("[^a-z ]"), " ").split(" ")
+    s.toLowerCase()
+            .replace(Regex("[^a-z ]"), " ")
+            .split(" ")
             .filter { !ar.contains(it) && it.isNotBlank() }
             .forEach { this[it] = getOrDefault(it, 0) + 1 }
 }.maxBy { it.value }?.key!!
