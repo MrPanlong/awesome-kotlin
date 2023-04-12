@@ -38,7 +38,7 @@ fun mostCommonWord(paragraph:String,banned:Array<String>):String{
 fun main(args: Array<String>) {
     val paragraph = "Bob hit a ball, the hit BALL flew far after it was hit."
     val banned = arrayOf("hit")
-    var res = mostCommonWord(paragraph, banned)
+    var res = mostCommonWords(paragraph, banned)
     println("res is $res")
 }
 
