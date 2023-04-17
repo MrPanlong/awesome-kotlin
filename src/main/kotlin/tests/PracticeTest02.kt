@@ -1,7 +1,7 @@
 package tests
 
-import leetcode.DistributeCandies
-import leetcode.FindMaxAverage
+import leetcode.arrays.DistributeCandies
+import leetcode.arrays.FindMaxAverage
 
 fun main(args: Array<String>) {
     var findMaxAverage: FindMaxAverage = FindMaxAverage()

@@ -1,4 +1,4 @@
-package leetcode
+package leetcode.strs
 
 class IsTransformable{
     fun isTransformable(s:String,t:String) :Boolean{
