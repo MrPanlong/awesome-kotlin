@@ -1,5 +1,9 @@
 package leetcode
-
+/**
+ *
+ *@author panlong
+ *@date 2023/4/17
+ */
 class LongestIncreasingPath{
     private val dp = Array(1005){IntArray(1005)}
     private var dir = arrayOf(intArrayOf(0,-1), intArrayOf(0,1),
