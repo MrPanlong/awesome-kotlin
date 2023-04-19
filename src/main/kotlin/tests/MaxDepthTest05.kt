@@ -1,6 +1,6 @@
 package tests
 
-import leetcode.MaxDepth
+import leetcode.strs.MaxDepth
 
 fun main(args: Array<String>) {
     var maxDepth = MaxDepth()

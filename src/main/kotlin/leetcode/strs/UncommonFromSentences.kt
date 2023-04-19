@@ -1,4 +1,4 @@
-package leetcode
+package leetcode.strs
 
 class UncommonFromSentences {
     fun uncommonFromSentences(s1: String, s2: String): Array<String> {

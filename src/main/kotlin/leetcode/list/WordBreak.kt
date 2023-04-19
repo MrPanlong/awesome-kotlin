@@ -1,4 +1,4 @@
-package leetcode
+package leetcode.list
 
 class WordBreak{
     var dp = mutableMapOf<String,List<String>>()

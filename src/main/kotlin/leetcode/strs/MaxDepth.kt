@@ -1,4 +1,4 @@
-package leetcode
+package leetcode.strs
 
 class MaxDepth{
     fun maxDepth(s:String):Int{
