@@ -1,4 +1,4 @@
-package leetcode
+package leetcode.arrays
 
 class SumOddLengthSubarrays{
     fun sumOddLengthSubarrays(arr:IntArray):Int{

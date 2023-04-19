@@ -1,6 +1,6 @@
 package tests
 
-import leetcode.SumOddLengthSubarrays
+import leetcode.arrays.SumOddLengthSubarrays
 
 fun main(args: Array<String>) {
     var sumOddLengthSubarrays = SumOddLengthSubarrays()

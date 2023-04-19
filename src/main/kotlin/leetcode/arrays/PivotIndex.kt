@@ -1,4 +1,4 @@
-package leetcode
+package leetcode.arrays
 class PivotIndex{
     public fun pivotIndex(nums:IntArray):Int{
         var leftSum = 0

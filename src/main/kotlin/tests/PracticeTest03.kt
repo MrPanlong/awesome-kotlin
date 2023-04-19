@@ -1,6 +1,6 @@
 package tests
 
-import leetcode.MaxCount
+import leetcode.num.MaxCount
 
 fun main(args: Array<String>) {
 

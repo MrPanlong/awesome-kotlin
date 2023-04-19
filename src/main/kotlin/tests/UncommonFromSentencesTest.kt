@@ -1,5 +1,5 @@
 package tests
-import leetcode.UncommonFromSentences
+import leetcode.strs.UncommonFromSentences
 
 fun main(args: Array<String>) {
 

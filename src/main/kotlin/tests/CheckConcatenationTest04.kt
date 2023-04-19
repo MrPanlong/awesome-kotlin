@@ -1,6 +1,6 @@
 package tests
 
-import leetcode.CheckConcatenation
+import leetcode.strs.CheckConcatenation
 
 fun main(args: Array<String>) {
 

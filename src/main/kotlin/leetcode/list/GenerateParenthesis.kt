@@ -1,4 +1,4 @@
-package leetcode
+package leetcode.list
 
 class GenerateParenthesis {
     fun generateParenthesis(n: Int): List<String> {

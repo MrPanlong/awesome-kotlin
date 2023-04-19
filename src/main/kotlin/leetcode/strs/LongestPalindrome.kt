@@ -1,4 +1,4 @@
-package leetcode
+package leetcode.strs
 
 class LongestPalindrome{
     fun longestPalindrome(s:String) :String{

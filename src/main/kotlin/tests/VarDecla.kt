@@ -10,6 +10,9 @@ class LambdaToVariableTest {
     var name: String? = null
     private val base = 10
     val sum = { x: Int, y: Int, z: Int -> x + y + z + base }
+
+
+
 }
 
 fun main(args: Array<String>) {

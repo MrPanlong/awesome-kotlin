@@ -1,4 +1,4 @@
-package leetcode
+package leetcode.strs
 
 class ReorderSpaces{
     fun reorderSpaces(text:String):String{
